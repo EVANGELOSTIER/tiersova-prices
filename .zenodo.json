@@ -1,0 +1,39 @@
+{
+  "upload_type": "dataset",
+  "title": "Tiersova SaaS reference prices",
+  "version": "2026-11-20",
+  "publication_date": "2026-11-20",
+  "description": "<p>Dated list prices of B2B software, as used by the free cost calculators on tiersova.com. Snapshot date: 2026-11-20.</p><p>The site has 85 software comparisons and 12 plan/fee calculators, each in 11 languages. For every comparison the data gives the two tools compared, the official pricing-page URLs, the date the prices were read, a status (reference_checked, partial_reference or illustrative) and the written assumptions; for the 82 comparisons with at least one published price it also gives each side's price model (tiers, per-seat plans, linear rates or currency-conversion fees). The 12 calculators list plan prices per tool. In all, prices come from 191 official pricing pages of 169 vendors, read between 2026-10-24 and 2026-11-20.</p><p>Prices were read by hand on each vendor's own public pricing page as a visitor in Greece unless a comparison's assumptions name another country page, in the currency the vendor shows there, before VAT where the vendor states whether VAT is included. Currency conversion on tiersova.com is for display only (ECB reference rates); the data stays in the vendor's currency. Not included: taxes, promotions, negotiated or enterprise prices, other regional prices, usage charges not named in the assumptions, and any change after the date read. These are reference prices, not quotes and not live pricing. The site's automatic check of the pricing pages is paused until 1 December 2026: re-check the vendor's page before relying on a figure.</p><p>Files: three JSON files byte-identical to the live files on tiersova.com on 2026-11-20 (data/tiersova-prices.json, pricing-sources.json, api-catalog.json) and five CSV views built from them by the included script. Live copy: https://tiersova.com/data/tiersova-prices.json. Contact: hello@tiersova.com</p>",
+  "creators": [
+    {
+      "name": "Tiersova"
+    }
+  ],
+  "keywords": [
+    "SaaS pricing",
+    "software prices",
+    "list prices",
+    "B2B software",
+    "total cost of ownership",
+    "pricing data"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://tiersova.com/price-watch",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://tiersova.com/data/tiersova-prices.json",
+      "relation": "isVersionOf",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://tiersova.com",
+      "relation": "isSupplementTo",
+      "resource_type": "other"
+    }
+  ]
+}

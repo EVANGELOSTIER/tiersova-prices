@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and credit Tiersova (https://tiersova.com)."
+type: dataset
+title: "Tiersova SaaS reference prices"
+abstract: "Dated list prices of B2B software, read by hand from each vendor's own public pricing page (as a visitor in Greece unless noted), with the source URL, the date each price was read, a status and the written assumptions behind the 85 software comparisons and 12 plan/fee calculators on tiersova.com (191 official pricing pages, 169 vendors). Snapshot of 2026-11-20. Prices are in the vendor's currency. Reference prices, not quotes and not live pricing: vendors change prices, so re-check the vendor's page before relying on a figure."
+authors:
+  - name: Tiersova
+    website: "https://tiersova.com"
+    email: hello@tiersova.com
+version: "2026-11-20"
+date-released: "2026-11-20"
+license: CC-BY-4.0
+url: "https://tiersova.com/price-watch"
+repository-artifact: "https://tiersova.com/data/tiersova-prices.json"
+contact:
+  - name: Tiersova
+    email: hello@tiersova.com
+    website: "https://tiersova.com"
+keywords:
+  - SaaS pricing
+  - software prices
+  - list prices
+  - B2B software
+  - total cost of ownership
+  - pricing data
